@@ -1,0 +1,367 @@
+* { margin:0; padding:0; outline:0; border:0; list-style-type:none; font-family:Arial; text-decoration:none; }
+.container { width:996px; margin:0 auto; }
+.containerdetail { width:996px; margin:0 auto; float:center; }
+a { cursor:pointer; }
+
+hr {
+   color: #f00;
+ background-color: #008080;
+ height: 1px;
+ }
+
+
+.threecolumn .mid .block ul { padding: 5px 0 15px 8px; }
+.threecolumn .mid .block ol { padding: 5px 0 15px 12px; }
+.threecolumn .mid .block ul li, .threecolumn .mid .block ol li { margin-left: 1em; }
+.threecolumn .mid .block ul li { list-style-type: square; }
+.threecolumn .mid .block ol li { list-style-type: decimal; }
+
+body { background:#fcfbfb; }
+.block p a { color:#d41872; }
+.block p a:hover { text-decoration:underline; }
+
+#header { height:173px; width:100%; background:url(/attractiepark/img/header_bg.png) top center no-repeat; }
+#header.home { height:253px; }
+
+#secondarymenu { float:right; margin-top:5px; padding:2px 1px 0 0; }
+#secondarymenu li { float:left; padding-left:13px; }
+#secondarymenu li a { float:left; color:#8d8d8d; font-size:11px; }
+#secondarymenu li a:hover { color:#d41872; }
+#secondarymenu li a.active { color:#2a3175; }
+
+#logo { float:left; margin:20px 0 0 50px; }
+.e958783da98e66ac6c49afe436748a { float:right; margin:20px 0 8px 0; }
+.column.last .e958783da98e66ac6c49afe436748a { margin:0 0 8px 0; }
+
+.column.last .banner { margin:0 0 8px 0; display:inline-block; width:336px; height:280px;}
+
+#header .header { float:left; height:33px; width:996px; margin-top:10px; background:url(/attractiepark/images/navigatiebalk.jpg) bottom repeat-x; }
+#header .header.home { height:113px; }
+#header .image { float:left; }
+
+#mainmenu { float:left; padding:0 0 0 0px; }
+
+#mainmenu li { float:left; height:31px; width:976px; margin-top:8px; padding:10px 10px 0 11px; color:#fff; font-size:14px; /*letter-spacing:-0.06em;*/  background:url(/attractiepark/img/navigatiebalk.jpg) top repeat-x; }
+
+
+#menu { float:left; height:19px; }
+#menu li { float:left; }
+#menu li a { float:left; height:17px; margin:5px 2px 0 0; padding:2px 10px 0 10px; color:#555; font-size:12px;  }
+#menu li a:hover { color:#008080; background:#e4e9e1; }
+#menu li.active a { color:#008080; background:#e4e9e1; }
+
+#header form { float:right; margin-top:4px; }
+#header form  input[type="text"] { float:left; height:14px !important; width:142px !important; padding:1px 0 0 6px !important; border:1px solid #b21561 !important; border-right:0 !important; background:url(/siteDesign/site/img/search_bg.png) right !important; color:#a1a1a1 !important; font-size:11px !important; }
+#header form  input[type="submit"] { float:left; height:17px !important; width:17px !important; background:url(/siteDesign/site/img/search_submit_bg.png) right !important; border:1px solid #b21561 !important; border-left:0 !important; cursor:pointer; }
+#header form  input[type="submit"]:hover { background:url(/siteDesign/site/img/search_button_hover.png) right !important; }	
+
+#header #rss { float:right; margin:6px 16px 0 5px; }
+#header #rss img { float:left; }
+#header #twitter { float:right; margin:6px 0px 0 16px; }
+#header #twitter img { float:left; }
+
+#header iframe { float:right; height:22px; width:160px; margin:2px 0 0 0; }
+#header #zoeken:hover { color:#fff; background:url(/attractiepark/img/mainmenu_li_a_hover.png) top repeat-x; }
+#header #zoeken.active { background:url(/attractiepark/img/mainmenu_li_a_active.png) center no-repeat; color:#fff; }
+
+.threecolumnseq { float:left; width:996px; margin-top:13px; }
+.threecolumnseq .column { float:left; width:170px; margin-right:8px; min-height: 1px; }
+.threecolumnseq .column .block { float:left; width:650px; min-height: 241px; margin-bottom:8px; background:#f0f0f0; border:1px solid #ebeaea; }
+.threecolumnseq .column .block.subcategory { height: 371px }
+.threecolumnseq .column .block.autoheight{ float:left; width:468px; height: auto; margin-bottom:8px; background:#f0f0f0; border:1px solid #ebeaea; }
+.threecolumnseq .column .block h3 { float:left; width:336px; padding:5px 0 5px 8px; font-size:14px; color:#2a3175; font-weight:normal; }
+.threecolumnseq .column .block h3 a, .threecolumnseq .column .block h3 a:hover, .threecolumnseq .column .block h3 avisited { font-size:14px; color:#2a3175; font-weight:normal; }
+.threecolumnseq .column .block ul { float:left; min-height:21px; width:312px; padding:5px 0 5px 0; background:url(/attractiepark/img/column_block_ul_bg.png) top center no-repeat; }
+ul.archive { float:left; width:330px; margin:0 40px 20px 0; }
+ul.archive.last { margin-right:0 !important; }
+.column .block ul li, ul.archive li { float:left; width:100%; display:block; padding:0 0 0 7px !important; line-height:19px; }
+.threecolumnseq .column .block ul li a, ul.archive li a { display: block; color:#8d8d8d; font-size:11px; padding:0 0 0 10px; background:url(/attractiepark/img/ul_li_arrow_2.gif) no-repeat 0px 6px; }
+.threecolumnseq .column .block ul li a:hover, ul.archive li a:hover { background:url(/attractiepark/img/a_more_arrow.png) 0px 6px no-repeat; text-decoration:none; color:#8d8d8d; }
+.threecolumnseq .column .block ul li a span, ul.archive li a span { display:inline-block; padding:0 0 0 5px; color:#555 !important; font-size:11px !important; }
+.threecolumnseq .column .block ul li a.pdf span { padding-left:0 !important; }
+.threecolumnseq .column .block ul li.item a:hover span { color:#555 !important; }
+.threecolumnseq .column .block ul li a:hover span, ul.archive li a:hover span { color:#d41872 !important; text-decoration:underline; }
+.threecolumnseq .column .block a.more { float:left; padding:0 7px 0 0; margin:5px 0 0 53px; padding-bottom:12px; color:#d41872; background:url(/attractiepark/img/a_more_arrow.png) right 5px no-repeat; font-size:11px; }
+.threecolumnseq .column .block a.more:hover { text-decoration:underline; }
+.threecolumnseq .column.last { width:334px; margin-right:0; }
+.threecolumnseq .column.last.home { width:160px; }
+.threecolumnseq .column.last.home.img { float:left; margin:0 9px 0 0; }
+.threecolumnseq .column .block ul.other li { width:100%; margin-bottom:2px; }
+.threecolumnseq .column .block ul.other li a { padding-left:12px; background:url(/attractiepark/img/a_more_hover.png) left center no-repeat; color:#555555; font-size:11px; }
+.threecolumnseq .column .block ul.other li a:hover { background:url(/attractiepark/img/a_more_arrow.png) left center no-repeat; color:#d41872; text-decoration:underline; }
+.threecolumnseq .column .e958783da98e66ac6c49afe436748a { float:left; border:none; }
+.threecolumnseq .column .e958783da98e66ac6c49afe436748a img { float:left; width:336px; }
+.threecolumnseq .column.last .block { width:334px; }
+.threecolumnseq .column.last .block ul { width:326px; }
+
+.threecolumnseq .twocolumn { float:left; width:645px; margin-right:15px; }
+.threecolumnseq .twocolumn .block { float:left; width:650px;  margin-bottom:8px; color:#555555; font-size:11px; line-height:19px; }
+.threecolumnseq .twocolumn .block.home { min-height: 200px }
+.threecolumnseq .twocolumn .block.background { padding-bottom:10px; background:#ebebeb; border:1px solid #ebeaea;  }
+.threecolumnseq .twocolumn .background h3 { font-size:14px; }
+.threecolumnseq .twocolumn .left { float:left; width:170px; margin-right:9px; min-height: 2000px }
+.threecolumnseq .twocolumn .right { float:left; width:468px; padding-left:8px; }
+.threecolumnseq .twocolumn .right > img, .threecolumnseq .twocolumn .left > img { margin-top:14px; }
+.threecolumnseq .twocolumn h3, .threecolumnseq .twocolumn h1 { float:left; width:643px; margin-bottom:6px; padding:3px 0 5px 8px; font-size:18px; color:#2a3175; font-weight:normal; position:relative; }
+.threecolumnseq .twocolumn h3 #pdf, .threecolumnseq .twocolumn h1 #pdf { position:absolute; right:30px; }
+.threecolumnseq .twocolumn h3 #print, .threecolumnseq .twocolumn h1 #print { position:absolute; right:9px; }
+.threecolumnseq .twocolumn p { padding:14px 0; }
+.threecolumnseq .twocolumn .left p { padding-left:8px; }
+.threecolumnseq .twocolumn p b { color:#2a3175; }
+.threecolumnseq .twocolumn span { font-size:10px; color:#8d8d8d; }
+.threecolumnseq .twocolumn span.image { float:left; width:289px; margin:-3px 0 15px 0; padding:5px 8px; background:#e6e6e6; border-bottom:1px solid #dddcdc; line-height:12px; }
+.threecolumnseq .twocolumn a.more { padding-right:10px; font-size:11px; color:#d41872; background:url(/attractiepark/img/a_more_arrow.png) right center no-repeat; }
+.threecolumnseq .twocolumn a.more:hover { text-decoration:underline; }
+.threecolumnseq .twocolumn .block ul { padding-left:8px; }
+.threecolumnseq .twocolumn .left .block ul { padding-left:8px; }
+.threecolumnseq .twocolumn .block ul li { padding:0 9px; background:url(/attractiepark/img/ul_li_arrow.png) left 7px no-repeat; }
+.threecolumnseq .twocolumn .block ul li.link, .column .block ul li.link { width:100%; background:none; padding:0;}
+.threecolumnseq .twocolumn .block ul li a, .column .block ul li a { color:#555; padding:0 9px; background:url(/attractiepark/img/ul_li_arrow.png) left 7px no-repeat; position:relative; font-size:11px; }
+.threecolumnseq .twocolumn .block ul li a.pdf, .column .block ul li a.pdf { padding-left:30px; }
+.threecolumnseq .twocolumn .block ul li a:hover, .column .block ul li a:hover { color:#d41872; text-decoration:underline; background:url(/attractiepark/img/a_more_arrow.gif) left center no-repeat; }
+.threecolumnseq .twocolumn .block ul li a.pdf img, .column .block ul li a.pdf img { position:absolute; left:10px; top:0; }
+
+.threecolumnseq .twocolumn .block ul.twocolumnlist.left { float:left; width:310px; margin:-10px 0 0 10px; padding:5px 0 0 0; background:url(/attractiepark/img/column_block_ul_2_bg.png) top center no-repeat; }
+.threecolumnseq .twocolumn .block ul.twocolumnlist.left li { float:left; display: block; background:none; width:300px !important; padding-left:10px; margin-left:-10px; }
+
+.threecolumnseq .twocolumn .block ul.twocolumnlist.right { float:left; width:300px; margin:-10px 0 0 10px; padding:5px 0 0 0; background:url(/attractiepark/img/column_block_ul_2_bg.png) top center no-repeat; }
+.threecolumnseq .twocolumn .block ul.twocolumnlist.right li { float:right; display: block; background:none; width:300px !important; border-left:1px solid #dcdcdc; padding-left:20px; margin-left:-20px; }
+
+.threecolumnseq .twocolumn .block ul.twocolumnlist li a { color:#8d8d8d; font-size:11px; background:url(/attractiepark/img/ul_li_arrow.png) left center no-repeat; }
+.threecolumnseq .twocolumn .block ul.twocolumnlist li a span { display:inline-block; padding:0 0 0 16px; color:#555; font-size:11px; }
+.threecolumnseq .twocolumn .block ul.twocolumnlist li a:hover span { color:#d41872; text-decoration:underline; }
+.threecolumnseq .twocolumn .block ul.twocolumnlist li a:hover { text-decoration:none; background:url(/attractiepark/img/ul_li_arrow.png) left center no-repeat; }
+.threecolumnseq .twocolumn .block a.more.twocolumnlink { margin-left:394px; margin-bottom:10px; }
+
+.threecolumn { float:left; width:996px; margin-top:13px; padding-bottom:5px; }
+.threecolumn .left { float:left; height:auto; width:214px; margin-right:9px; min-height: 1px; }
+.threecolumn .mid { float:left; width:430px; margin-right:7px; }
+.threecolumn .mid .block { float:left; width:428px; margin-bottom:8px; color:#555555; font-size:11px; line-height:19px; }
+.threecolumn h3, .threecolumn h1 { float:left; width:420px; padding:5px 0 15px 8px; font-size:18px; color:#2a3175; font-weight:normal; position:relative; }
+.threecolumn .mid h3 #pdf { position:absolute; right:30px; }
+.threecolumn .mid .block ul { padding: 5px 0 15px 8px; }
+.threecolumn .mid .block ul li a { display:inline-block; background:url(/attractiepark/img/ul_li_arrow_2.gif) left center no-repeat;  padding:0 0 0 10px; color:#8d8d8d !important; text-decoration:underline; font-size:11px !important;  }
+.threecolumn .mid .block ul li a:hover { background:url(/attractiepark/img/a_more_arrow.png) left center no-repeat; text-decoration:none; color:#d41872 !important; }
+.print { float:left; padding:1px 30px 0px 7px; background:#f0f0f0; border-bottom:2px solid #e2e2e2; color:#8d8d8d !important; font-size:10px; position:relative; }
+.print img { position:absolute; top:5px; right:8px; }
+.print:hover { background:#2a3175; border-color:#191d45; color:#fff !important; text-decoration:none !important; }
+.threecolumn .mid p { padding:14px 7px; }
+.threecolumn .mid img { padding: 0 7px; }
+.threecolumn .mid p b { color:#2a3175; }
+.threecolumn .mid span { font-size:10px; color:#8d8d8d; }
+.threecolumn .mid a.more { padding:0 10px 0 0; font-size:11px; color:#d41872; background:url(/attractiepark/img/a_more_arrow.png) right center no-repeat; }
+.threecolumn .right { float:right; width:322px; }
+.threecolumn .right.big { float:left; width:700px; }
+
+.threecolumn .right .block { float:left; width:320px; margin-bottom:8px; background:#f0f0f0; border:1px solid #ebeaea; }
+.threecolumn .right .block h3 { float:left; width:312px; padding:5px 0 5px 8px; font-size:14px; color:#2a3175; font-weight:normal; }
+.threecolumn .right .block ul { float:left; width:312px; padding:10px 0 5px 0; background:url(/attractiepark/img/column_block_ul_bg.png) top center no-repeat; }
+.threecolumn .right .block ul li { float:left; width:307px; padding:0 0 0 7px; line-height:19px; }
+.threecolumn .right .block ul li a { padding-left:12px; background:url(/attractiepark/img/a_more_hover.png) left center no-repeat; color:#555555; font-size:11px; }
+.threecolumn .right .block ul li a span { display:inline-block; padding:0 0 0 16px; color:#2a3175; font-size:11px; }
+.threecolumn .right .block ul li a:hover { background:url(/attractiepark/img/a_more_arrow.png) left center no-repeat; color:#d41872; text-decoration:underline; }
+.column .block a.more { margin-left:38px !important; }
+.column .block a.more.other { margin-left:49px !important; }
+.threecolumn .right .e958783da98e66ac6c49afe436748a { float:left; border:1px solid #ebeaea; }
+.threecolumn .right .e958783da98e66ac6c49afe436748a img { float:left; width:320px; }
+.threecolumn h4 { float:left; width:100%; font-size:12px; color:#2a3175; padding-left:7px; }
+
+.column .block li.item { float:left; height:140px !important; padding:0 0 2px 0 !important; background:url(/attractiepark/img/item_bg.jpg) bottom left no-repeat; margin-top:-5px; }
+.column .block li.item a { float:left; padding:0 !important; width:320px !important; position:relative;  cursor:pointer; background:none !important; }
+.column .block li.item a:hover { background:url(/attractiepark/img/item_hover_bg.png) top center repeat-x #fff !important; text-decoration:none; }
+.column .block li.item strong { float:left; width:313px; padding:5px 0 5px 7px; font-size:12px; color:#2a3175; font-weight:normal; }
+.column .block li.item a:hover strong { color:#d41872; }
+.column .block li.item img { float:left; padding:4px 10px 24px 7px; }
+.column .block li.item span { float:left; width:185px; padding:0 !important; font-size:11px; color:#555 !important; line-height:19px; }
+.column .block li.item small { float:left; padding:0 8px 1px 0; position:absolute; bottom:23px; left:122px; line-height:7px !important; color:#d41872; font-size:11px; background:url(/attractiepark/img/a_more_arrow.png) right center no-repeat; }
+.column .block li.item a:hover small { text-decoration:underline; }
+.column .block li.item a:hover span { color:#555 !important; text-decoration:none !important; }
+
+#submenu { float:left; width:214px; }
+#submenu li { width:214px; }
+#submenu li a { float:left; width:193px; height:21px; color:#555; padding:6px 0 0 21px; background:url(/attractiepark/img/ul_li_arrow_2.gif) 9px 10px no-repeat; font-size:11px; }
+#submenu li a:hover { color:#d41872;  background:url(/attractiepark/img/a_more_arrow.png) 9px 10px no-repeat; text-decoration:underline; }
+#submenu li.active a { background:url(/attractiepark/img/a_more_arrow.png) 9px 10px no-repeat #f0f0f0; color:#d41872; text-decoration:none; }
+
+#content form { float:left; padding:0 7px; }
+#content form fieldset { float:left; }
+#content form p { float:left; width:635px; padding:0 0 5px 0; }
+
+#content form label { float:left; width:159px; }
+.tooltip label { float:none !important; width:159px; }
+#content form input[type="text"] { float:left; height:22px; width:466px; padding:1px 0 0 8px; border:1px solid #e2e0e0; font-size:11px; color:#7a7a7a; line-height:19px; }
+#content form select { float:left; height:25px; width:476px; padding:3px 3px 3px 8px; border:1px solid #e2e0e0; font-size:11px; color:#7a7a7a; line-height:19px; }
+#content form select option { padding:2px 0 2px 8px; }
+#content form textarea { float:left; height:193px; width:466px; padding:3px 0 0 8px; border:1px solid #e2e0e0; font-size:11px; color:#7a7a7a; line-height:19px; }
+#content form #submit { float:left; height:22px; width:85px;  padding-top:5px; background:#2a3175; border-bottom:4px solid #20276b; cursor:pointer; }
+#content form #submit:hover { border-color:#b21561; background:#c61e6e; }
+#content form #submit, #content form #submit:hover { text-decoration: none; }
+#content form #submit span { color:#fff; font-size:12px; margin:0 0 0 16px; }
+#content form p.other { padding-left:159px; width:476px; }
+#content form p.other label { width:auto; }
+#content form p.other input[type="checkbox"] { vertical-align:text-top; }
+#content form p i { margin-left: 159px; }
+
+input.gsc-search-button { float:left; height:22px; width:85px;  padding-top:5px; background:#2a3175; border-bottom:4px solid #20276b; cursor:pointer; font-size:11px; color:#7a7a7a; line-height:19px; }
+input.gsc-search-button:hover { border-color:#b21561; background:#c61e6e; }
+
+address { float:left; width:303px; padding:5px 0 10px 9px; background:url(/attractiepark/img/column_block_ul_bg.png) top center no-repeat; color:#555; line-height:19px; font-size:11px; font-style:normal; }
+address span { width:72px; display:inline-block; }
+address a { color:#d41872; text-decoration:underline; }
+address a:hover { text-decoration:none; }
+
+a.leftblock { float:left; width:170px; margin-bottom:8px; position:relative; }
+a.lefblock img { position:absolute; top:8px; left:8px; }
+a.lefblock strong { float:left; width:150px; padding:3px 10px; font-size:14px !important; color:#2a3175 !important; font-weight:normal; background:#ebebeb; border:1px solid #ebeaea; border-bottom:0; }
+a.lefblock span.bottom { float:left; width:170px; background:url(/attractiepark/img/a_linkblock_bg.png) top no-repeat #ebebeb; border:1px solid #ebeaea; border-top:0; }
+a.llefblock .bottom span { float:left; width:150px; padding:3px 10px; font-size:11px !important; color:#555 !important; line-height:19px; }
+a.lefblock small { float:left; padding:0 10px 3px 10px; color:#d41872 !important; font-size:11px !important; background:url(/attractiepark/img/a_more_arrow.gif) right center no-repeat; padding-right:10px; }
+a.lefblock:hover strong { color:#d41872 !important; border-color:#f5f4f4; background:#fff; }
+a.lefblock:hover small { text-decoration:underline; }
+a.lefblock:hover .bottom { background:url(/attractiepark/img/a_linkblock_hover_bg.png) top no-repeat #fff; border-color:#f5f4f4; }
+
+.linkblock { float:left; width:160px; margin-bottom:8px; position:relative; }
+.linkblock img { top:8px; left:8px; float:left; }
+.linkblock strong { float:left; width:320px; padding:3px 10px; font-size:14px !important; color:#008080 !important; font-weight:normal; background:#ebebeb; border:1px solid #ebeaea; border-bottom:0; }
+.linkblock span.bottom { float:left; width:320px; background:url(/attractiepark/img/a_linkblock_bg.png) top no-repeat #ebebeb; border:1px solid #ebeaea; border-top:0; }
+.inkblock .bottom span { float:left; width:320px; padding:3px 10px; font-size:11px !important; color:#555 !important; line-height:13px; }
+.linkblock small { float:left; padding:0 10px 3px 10px; color:#d41872 !important; font-size:11px !important; background:url(/attractiepark/img/a_more_arrow.gif) right center no-repeat; padding-right:10px; }
+.linkblock:hover strong { color:#d41872 !important; border-color:#f5f4f4; background:#fff; }
+l.inkblock:hover small { text-decoration:underline; }
+.linkblock:hover .bottom { background:url(/attractiepark/img/a_linkblock_hover_bg.png) top no-repeat #fff;  }
+.linkblock .bottom span a { float:left; width:300px; padding:3px 10px; font-size:11px !important; color:#555 !important; line-height:13px; }
+
+a.linkblock { float:left; width:322px; margin-bottom:8px; position:relative; background:url(/attractiepark/img/a_linkblock_bg.png) top no-repeat #ebebeb; }
+a.linkblock img { position:absolute; top:8px; left:8px; }
+a.linkblock strong { float:left; width:300px; padding:3px 10px; font-size:14px !important; color:#008080 !important; font-weight:normal; background:#ebebeb; border:1px solid #ebeaea; border-bottom:0; }
+a.linkblock span.bottom { float:left; width:320px; background:url(/attractiepark/img/a_linkblock_bg.png) top no-repeat }
+a.linkblock .bottom span { float:left; width:300px; padding:3px 10px; font-size:11px !important; color:#555 !important; line-height:13px; }
+a.linkblock small { float:left; padding:0 10px 3px 10px; color:#d41872 !important; font-size:11px !important; background:url(/attractiepark/img/a_more_arrow.gif) right center no-repeat; padding-right:10px; }
+a.linkblock:hover strong { color:#d41872 !important; border-color:#f5f4f4; background:#fff; }
+a.linkblock:hover small { text-decoration:underline; }
+a.linkblock:hover .bottom { background:url(/attractiepark/img/a_linkblock_hover_bg.png) top no-repeat #fff; font-size:11px !important; color:#008080 !important; line-height:13px; border-color:#f5f4f4; }
+
+a.rightblock { float:left; width:260px; margin-bottom:8px; position:relative; background:url(/attractiepark/img/a_linkblock_bg.png) top no-repeat #ebebeb; }
+a.rightblock:hover { float:left; width:260px; margin-bottom:8px; position:relative; background:url(/attractiepark/img/a_linkblock_bg.png) top no-repeat #fff; border:1px solid #008080; }
+a.rightblock img {float left; padding:8px 20px; top:8px; left:8px; }
+a.rightblock strong { float:left; width:300px; padding:0px 20px; font-size:12px !important; color:#008080 !important; font-weight:normal; background:#ebebeb; border:1px solid #ebeaea; border-bottom:0; }
+a.rightblock span.bottom { float:left; width:320px; background:url(/attractiepark/img/a_linkblock_bg.png) top no-repeat #ebebeb; border:1px solid #ebeaea; border-top:0; }
+a.rightblock .bottom span { float:left; width:300px; padding:3px 0px; font-size:11px !important; color:#555 !important; line-height:13px; }
+a.rightblock small { float:left; padding:0 10px 3px 10px; color:#d41872 !important; font-size:11px !important; background:url(/attractiepark/img/a_more_arrow.gif) right center no-repeat; padding-right:10px; }
+a.rightblock:hover strong { color:#d41872 !important; border-color:#f5f4f4; background:#fff; }
+a.rightblock:hover small { text-decoration:underline; }
+a.rightblock:hover .bottom { background:url(/attractiepark/img/a_linkblock_hover_bg.png) top no-repeat #fff; border-color:#f5f4f4; }
+
+.column.last a.linkblock { width:160px; border-color:#f5f4f4; background:#000; }
+.column.last a.linkblock:hover { background:url(/attractiepark/img/last_linkblock_hove.png); }
+.column.last a.linkblock strong { width:160px; }
+.column.last a.linkblock span { width:160px; }
+.column.last a.linkblock span.bottom { width:160px; }
+
+.linkblock.image strong, a.linkblock.image strong:hover { padding:3px 0 3px 123px; width:97px !important; }
+.linkblock.image span.bottom span, a.linkblock.image span.bottom span:hover { padding:3px 0 3px 125px; width:197px !important; }
+.linkblock.image small { padding-left:125px; }
+.column.last a.linkblock.image strong { width:211px !important; }
+
+a.linkblock.image strong, a.linkblock.image strong:hover { padding:3px 0 3px 123px; width:197px !important; }
+a.linkblock.image span.bottom span, a.linkblock.image span.bottom span:hover { padding:3px 0 3px 125px; width:197px !important; }
+a.linkblock.image small { padding-left:125px; }
+.column.last a.linkblock.image strong { width:211px !important; }
+
+.newsblock { float:left; width:452px; padding:9px; background:#ebebeb; }
+.newsblock strong { float:left; width:452px; font-size:14px !important; color:red !important; line-height:19px; font-weight:bold; }
+.newsblock img { float:left; margin:0 9px 0 0; }
+.newsblock object { float:left; margin:0 9px 0 0; }
+.newsblock script { float:left; margin:0 9px 0 0; }
+.newsblock span { width:452px; padding:5px 0; font-size:11px !important; line-height:11px; color:#000 !important; }
+.newsblock small { float:right; width:452px;color:#008080 !important; font-size:11px !important; padding-right:10px; }
+.newsblock a { font-size:12px !important; line-height:11px; color:#008080; text-decoration:none; }
+.newsblock a:hover { font-size:12px !important; line-height:11px; color:#008080; text-decoration:underline; }
+.newsblock:hover { padding:8px; background:#fff; border:1px solid #f8f8f8; }
+
+a.newsletter { float:left; height:120px; width:322px; background:url(/attractiepark/img/interaction_vf0.png); }
+a.newsletter:hover { background:url(/attractiepark/img/interaction_vf1.png); }
+
+#content { width:100%; background:url(/attractiepark/img/content_bg.png) center repeat-y; }
+
+#footer { height:100px; width:100%; padding-top:10px; background:url(/attractiepark/img/footer_bg.png) top center no-repeat; color:#9e9e9e; font-size:11px; }
+#footer .left { float:left; margin-bottom: 10px; }
+#footer .right { float:right; margin-bottom: 10px; }
+#footer a { color:#9e9e9e; text-decoration:underline; }
+#footer a:hover { color:#555; }
+
+/* Contact status */
+.formStatusText { padding: 0 7px !important; font-weight: bold; color: #0C0; }
+.formStatusTextError { color: #C00; }
+.formFieldError { border: 1px solid #C00 !important; }
+
+.headerBanner
+{
+    float: right;
+    margin: 20px 0 8px;
+}
+
+.column.last a.linkblock strong {
+    width: 314px;
+	float:left;
+	border-right:none;
+}
+
+.smallGray{font-size:10px; color:#8D8D8D; float:right; width:50px !important; margin:6px 4px 0 0; border:none;}
+.noMargin{margin:0;}
+
+.column.last a.linkblock .advertorial{
+	/*
+		width:130px !important;
+	*/
+	background:#ebebeb;
+	border:1px solid #EBEAEA;
+	border-bottom:none;
+}
+
+.column.last a.linkblock.image .advertorial strong{
+		width:210px !important;
+}
+
+.column.last a.linkblock .advertorial strong{
+	/*
+		width:130px !important;
+	*/
+	background:#ebebeb;
+	border:none;
+}
+
+.column.last a.linkblock:hover .advertorial{
+	background:#fff;
+	border-color:#F5F4F4;
+}
+
+.advertorialBlock .advertorial strong{
+	font-size:11px !important;
+}
+
+.advertorialBlock .advertorial strong .bold{
+	font-size:11px !important;
+	font-weight:bold;
+}
+
+
+
+.advertorialLink {
+    background: none repeat scroll 0 0 #F0F0F0;
+    border-bottom: 2px solid #E2E2E2;
+    color: #8D8D8D !important;
+    float: left;
+    font-size: 10px;
+    padding: 1px 30px 0 7px;
+    position: relative;
+	width:123px;
+}
+.advertorialLink img { position:absolute; top:8px; right:13px; }
+.advertorialLink:hover { background:#2a3175; border-color:#191d45; color:#fff !important; text-decoration:none !important; }
+
+.twitterBar{background:url(/attractiepark/img/twitterBar.png) top left no-repeat; width:322px; height:26px; display:inline-block; position:relative;}
+.twitterBar:hover{background:url(/attractiepark/img/twitterBar_hover.png) top left no-repeat;}
+.twitterBar span{font-size:13px !important; color:#2465ab !important; position:absolute; left:35px; top:3px;}
+
+

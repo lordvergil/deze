@@ -1,0 +1,25 @@
+<xml version="1.0" encoding="utf-8" >
+<!--
+- Database: 'mboopen'
+-->
+  <mboopen>
+    <!-- Tabel scholen -->
+      <scholen>
+        <ID>5811</ID>
+        <Naam>Albeda College</Naam>
+      </scholen>
+      <scholen>
+        <ID>5812</ID>
+        <Naam>Da Vinci College</Naam>
+      </scholen>
+      <scholen>
+        <ID>5813</ID>
+        <Naam>Drenthe College</Naam>
+      </scholen>
+      <scholen>
+        <ID>5814</ID>
+        <Naam>Graafschap College</Naam>
+      </scholen>
+
+</mboopen>
+</xml>
