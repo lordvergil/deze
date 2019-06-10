@@ -40,26 +40,6 @@ public function InsertXml(){
   }
 }
 
-//
-// public function InsertXml(){
-//   if (isset($_POST['buttonImport'])) {
-//     copy($_FILES['xmlFile'] ['tmp_name'],
-//      'data/'.$_FILES['xmlFile'] ['name']);
-//      require 'xml.class.php';
-//      $xml = simplexml_load_file('data/'.$_FILES['xmlFile'] ['name']);
-//      foreach($scholen->mboopen->scholen as $school) {
-//        $ID = $school->ID;
-//        $Naam = $scholen->Naam;
-//        echo "$ID";
-//        echo "$Naam";
-//      }
-//   }
-// }
-
-
-
-
-
   public function CollectSchool(){
 
       $id = $_GET['id'];
