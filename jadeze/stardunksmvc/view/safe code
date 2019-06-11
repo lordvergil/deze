@@ -1,0 +1,42 @@
+<table border = 1>
+        <thead>
+            <tr> 
+            <?php foreach($products as $product): ?>
+                <?php foreach($product as $key => $value): ?> 
+                    <?php if($header === false):
+                        $count++;
+                        if($count > 5):
+                            $header = true;
+                        endif;?>
+                        <th>
+                            <?= $key; ?>
+                        </th>
+                    <?php endif; ?>
+                <?php endforeach; ?>
+                <?php if($actions === false):
+                       $count++;
+                       if($count > 0):
+                        $actions = true;
+                       endif; ?>
+                       <th>Actions</th>
+                <?php endif; ?>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><?php echo $product['product_id']; ?></td>
+                <td><?php echo $product['product_type_code']; ?></td>
+                <td><?php echo $product['supplier_id']; ?></td>
+                <td><?php echo $product['product_price']; ?></td>
+                <td><?php echo $product['product_name']; ?></td>
+                <td><?php echo $product['other_product_details']; ?></td>
+				
+                <td class='action'>
+				<a href='index.php?op=read&product_id=<?php echo $product['product_id']; ?>' class='tableButton' value='read'>Read</a> 
+				<a href='index.php?op=update' class='tableButton' value='update'>Update</a> 
+				<a href='index.php?op=delete&product_id=<?php echo $product['product_id']; ?>' class='tableButton' value='delete'>Delete</a>
+				</td>
+            </tr>
+            <?php endforeach; ?>
+        </tbody>
+    </table>
